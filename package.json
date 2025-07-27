@@ -1,8 +1,15 @@
 {
-	"name": "auth-app",
+	"name": "hello-svelte",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
+	"license": "MIT",
+	"author": "Hanivan Rizky Sobari <hanivan@linkeun.com>",
+	"homepage": "https://linkeun.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/linkeunid/hello-svelte.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

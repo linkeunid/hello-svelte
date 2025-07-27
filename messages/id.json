@@ -1,4 +1,27 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from id!"
+	"hello_world": "Halo, {name}!",
+	"welcome": "Selamat datang di demo internasionalisasi kami",
+	"language_switcher": "Pemilih Bahasa",
+	"choose_language": "Pilih bahasa yang Anda inginkan untuk melihat konten beradaptasi secara real-time",
+	"current_language": "Bahasa saat ini: Bahasa Indonesia",
+	"demo_description": "Demonstrasi ini menampilkan sistem internasionalisasi type-safe yang powerful dari Paraglide. Saksikan bagaimana konten berubah secara instan saat Anda beralih antar bahasa.",
+	"type_safety": "Terjemahan Type-Safe",
+	"type_safety_desc": "Paraglide menyediakan keamanan tipe pada waktu kompilasi untuk semua terjemahan Anda. Tidak ada lagi error runtime dari parameter pesan yang hilang atau salah tipe.",
+	"vscode_integration": "Integrasi VS Code",
+	"vscode_integration_desc": "Pengalaman developer yang ditingkatkan dengan ekstensi Sherlock i18n. Dapatkan autocomplete, validasi, dan manajemen terjemahan yang seamless.",
+	"install_extension": "Pasang Ekstensi Sherlock",
+	"how_it_works_title": "Cara Kerjanya",
+	"how_it_works_subtitle": "Paraglide menghasilkan fungsi pesan type-safe dari file terjemahan Anda",
+	"step1": "Definisikan Pesan",
+	"step1_desc": "Tulis terjemahan Anda dalam file JSON atau PO dengan parameter",
+	"step2": "Hasilkan Tipe",
+	"step2_desc": "Paraglide menghasilkan fungsi TypeScript dengan tipe yang tepat",
+	"step3": "Gunakan dengan Aman",
+	"step3_desc": "Import dan gunakan dengan IntelliSense dan type checking lengkap",
+	"back_to_demos": "Kembali ke Demo",
+	"footer_text": "Demo ini menampilkan pola internasionalisasi dunia nyata",
+	"messages_count": "{count} pesan tersedia",
+	"last_updated": "Terakhir diperbarui: {date}",
+	"language_coverage": "Cakupan bahasa: {percentage}%"
 }

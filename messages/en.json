@@ -1,4 +1,27 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from en!"
+	"hello_world": "Hello, {name}!",
+	"welcome": "Welcome to our internationalization demo",
+	"language_switcher": "Language Switcher",
+	"choose_language": "Choose your preferred language to see content adapt in real-time",
+	"current_language": "Current language: English",
+	"demo_description": "This demonstration showcases Paraglide's powerful type-safe internationalization system. Watch how content transforms instantly as you switch between languages.",
+	"type_safety": "Type-Safe Translations",
+	"type_safety_desc": "Paraglide provides compile-time type safety for all your translations. No more runtime errors from missing or incorrectly typed message parameters.",
+	"vscode_integration": "VS Code Integration",
+	"vscode_integration_desc": "Enhanced developer experience with the Sherlock i18n extension. Get autocomplete, validation, and seamless translation management.",
+	"install_extension": "Install Sherlock Extension",
+	"how_it_works_title": "How It Works",
+	"how_it_works_subtitle": "Paraglide generates type-safe message functions from your translation files",
+	"step1": "Define Messages",
+	"step1_desc": "Write your translations in JSON or PO files with parameters",
+	"step2": "Generate Types",
+	"step2_desc": "Paraglide generates TypeScript functions with proper types",
+	"step3": "Use Safely",
+	"step3_desc": "Import and use with full IntelliSense and type checking",
+	"back_to_demos": "Back to Demos",
+	"footer_text": "This demo showcases real-world internationalization patterns",
+	"messages_count": "{count} messages available",
+	"last_updated": "Last updated: {date}",
+	"language_coverage": "Language coverage: {percentage}%"
 }

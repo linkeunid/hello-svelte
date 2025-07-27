@@ -1,4 +1,27 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from jp!"
+	"hello_world": "こんにちは、{name}さん！",
+	"welcome": "国際化デモへようこそ",
+	"language_switcher": "言語切り替え",
+	"choose_language": "お好みの言語を選択して、コンテンツがリアルタイムで適応する様子をご覧ください",
+	"current_language": "現在の言語：日本語",
+	"demo_description": "このデモンストレーションでは、Paraglideの強力な型安全な国際化システムを紹介します。言語を切り替えると、コンテンツが瞬時に変換される様子をご覧ください。",
+	"type_safety": "型安全な翻訳",
+	"type_safety_desc": "Paraglideは、すべての翻訳にコンパイル時の型安全性を提供します。欠落または型が間違ったメッセージパラメータによるランタイムエラーはもうありません。",
+	"vscode_integration": "VS Code統合",
+	"vscode_integration_desc": "Sherlock i18n拡張による強化された開発者体験。オートコンプリート、バリデーション、シームレスな翻訳管理を取得できます。",
+	"install_extension": "Sherlock拡張をインストール",
+	"how_it_works_title": "仕組み",
+	"how_it_works_subtitle": "Paraglideは翻訳ファイルから型安全なメッセージ関数を生成します",
+	"step1": "メッセージを定義",
+	"step1_desc": "パラメータ付きのJSONまたはPOファイルで翻訳を書きます",
+	"step2": "型を生成",
+	"step2_desc": "Paraglideが適切な型を持つTypeScript関数を生成します",
+	"step3": "安全に使用",
+	"step3_desc": "完全なIntelliSenseと型チェックでインポートして使用します",
+	"back_to_demos": "デモに戻る",
+	"footer_text": "このデモは実際の国際化パターンを紹介しています",
+	"messages_count": "{count}つのメッセージが利用可能",
+	"last_updated": "最終更新：{date}",
+	"language_coverage": "言語カバレッジ：{percentage}%"
 }

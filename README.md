@@ -1,4 +1,4 @@
-# 🔐 SvelteKit Authentication Template
+# 🔐 Hello Svelte
 
 A modern, production-ready SvelteKit authentication template featuring JWT-based auth, beautiful UI components, and comprehensive user management. Built with **SvelteKit 2**, **Svelte 5**, and **Auth.js** for secure, scalable web applications.
 
@@ -49,8 +49,8 @@ A modern, production-ready SvelteKit authentication template featuring JWT-based
 ### Installation
 
 ```bash
-# Clone the template
-git clone <repository-url> my-app
+# Clone Hello Svelte
+git clone https://github.com/linkeunid/hello-svelte.git my-app
 cd my-app
 
 # Install dependencies
@@ -277,10 +277,10 @@ vercel
 
 ```bash
 # Build image
-docker build -t my-app .
+docker build -t hello-svelte .
 
 # Run container
-docker run -p 3000:3000 my-app
+docker run -p 3000:3000 hello-svelte
 ```
 
 ## 🔒 Security Considerations
