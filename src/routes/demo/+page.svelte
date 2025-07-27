@@ -4,7 +4,7 @@
 	import { Badge } from '$lib/components/ui/badge';
 	import { Button } from '$lib/components/ui/button';
 	import * as Card from '$lib/components/ui/card';
-	import { Code2, Globe, Palette, Zap } from '@lucide/svelte';
+	import { AlertTriangle, Code2, Globe, Palette, Zap } from '@lucide/svelte';
 </script>
 
 <PageTitle
@@ -64,6 +64,41 @@
 								class="zen-button w-full group-hover:bg-primary group-hover:text-primary-foreground"
 							>
 								Try Paraglide Demo
+							</Button>
+						</Card.Footer>
+					</Card.Root>
+
+					<!-- Error Handling Demo -->
+					<Card.Root class="zen-card group transition-shadow duration-300 hover:shadow-md">
+						<Card.Header class="space-y-2">
+							<div class="flex items-center gap-2">
+								<AlertTriangle class="h-5 w-5 text-primary" />
+								<Card.Title class="text-lg font-normal">Error Handling</Card.Title>
+							</div>
+							<Card.Description class="zen-text">
+								Demonstrate custom error messages and see how our elegant error page handles
+								different error scenarios with helpful user guidance.
+							</Card.Description>
+						</Card.Header>
+						<Card.Content>
+							<div class="space-y-3">
+								<div class="flex flex-wrap gap-2">
+									<Badge variant="secondary" class="text-xs">404 Errors</Badge>
+									<Badge variant="secondary" class="text-xs">Custom UI</Badge>
+									<Badge variant="secondary" class="text-xs">Examples</Badge>
+								</div>
+								<p class="text-sm text-muted-foreground">
+									Interactive error triggers with detailed examples
+								</p>
+							</div>
+						</Card.Content>
+						<Card.Footer>
+							<Button
+								href="/demo/error"
+								variant="outline"
+								class="zen-button w-full group-hover:bg-primary group-hover:text-primary-foreground"
+							>
+								Try Error Demo
 							</Button>
 						</Card.Footer>
 					</Card.Root>
